@@ -1,0 +1,20 @@
+:root{
+    --dark-color : beige;
+    --big-everything : 2rem;
+    --font-color : black;
+}
+
+body{
+    background-color: var(--dark-color);
+    font-size: var(--big-everything);
+    color: var(--font-color);
+}
+
+button{
+    padding: 20px;
+    border: none;
+}
+
+button:active{
+    transform: translateY(1.5px);
+}
